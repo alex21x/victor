@@ -1,0 +1,12 @@
+INSERT INTO `ubigeo_inei`(`ubigeo`, `localidad`, `poblacion`, `superficie`, `y`, `x`) SELECT `ubigeo`,CONCAT()
+
+
+SELECT `Ubigeo`,CONCAT(UPPER(`Distrito`),"|",UPPER(`Provincia`),"|DEPARTAMENTO ",UPPER(`Departamento`)) FROM ubigeo_inei
+
+
+INSERT INTO `ubigeo_inei2`(`ubigeo`, `localidad`, `poblacion`, `superficie`, `y`, `x`) SELECT `Ubigeo`,CONCAT(UPPER(`Distrito`),"|",UPPER(`Provincia`),"|DEPARTAMENTO ",UPPER(`Departamento`)), `Poblacion`, `Superficie`,`Y`,`X` FROM ubigeo_inei
+
+UPDATE ubigeo_inei SET ubigeo = CONCAT("0",ubigeo), localidad = CONCAT("0",localidad) WHERE id < 909;
+
+--------query para volcar datos de una tabla a otra mediente insert select ------------
+insert into tipo_enfermedades2 (codigo,descripcion) select codigo, cancat(upper(codigo)," - ", upper(descripcion)) from tipo_enfermedades

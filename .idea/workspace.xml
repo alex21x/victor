@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbe5e5a2-4cb8-40a2-a4e5-929c4ba59d8d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>base_url</find>
+      <find>actualizar datos</find>
+      <find>deta</find>
+      <find>detalle</find>
+      <find>javascript:window.open</find>
+      <find>Ver Pdf</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\facturacion_ariany</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/controllers/ticket.php" />
+        <option value="$PROJECT_DIR$/application/models/ticket_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/comprobantes.php" />
+        <option value="$PROJECT_DIR$/application/views/comprobantes/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="facturacion_ariany" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facturacion_ariany" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="facturacion_ariany" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facturacion_ariany" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebLingerie" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\facturacion_ariany\application\models" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbe5e5a2-4cb8-40a2-a4e5-929c4ba59d8d" name="Default" comment="" />
+      <created>1525529120647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525529120647</updated>
+      <workItem from="1525529122017" duration="14135000" />
+      <workItem from="1525803364413" duration="704000" />
+      <workItem from="1525899998821" duration="64000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14903000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10741301" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/views/comprobantes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5627">
+          <caret line="331" column="72" selection-start-line="331" selection-start-column="72" selection-end-line="331" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/ticket_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/comprobantes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25262">
+          <caret line="1486" column="30" selection-start-line="1486" selection-start-column="20" selection-end-line="1486" selection-end-column="30" />
+          <folding>
+            <element signature="n#documentos#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#documentosBuscar#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#index#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#indexo#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#comprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#index_asesor#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#nuevo#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#modificar#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#eliminar#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#pdfGeneraComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#pdfGeneraComprobanteOffLine#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#pdfGeneraComprobanteOffLineAnulado#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#jsonComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#ValidarComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#mailEnviarComprobante_1#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#mailEnviarComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#popoverSunat#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#rptaSunat#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#rptaSunatAnulado#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#xmlSunat#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#webServiceInvocarTXT#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#cdrSunat#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#buscador_cliente#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#updateEstadoComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#comunicacionBaja#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#estadoBaja#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#tipoCambio#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#selectUltimoReg#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#selectUltimoRegModificar#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#sanear_string#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#quitarSaltoDeLinea#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#exportarExcel#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#cargarComprobantesCliente#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#comprobantesNotasCredito#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#selectRutaCDR#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#selectCDR#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#crearDocumentoCDR#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#tipoCambioFechaJson#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#tipoCambioFecha#0;n#Comprobantes#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/comprobantes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5406">
+          <caret line="318" column="72" selection-start-line="318" selection-start-column="72" selection-end-line="318" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/comprobantes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9792">
+          <caret line="576" column="46" lean-forward="true" selection-start-line="574" selection-start-column="8" selection-end-line="576" selection-end-column="46" />
+          <folding>
+            <element signature="n#documentos#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#documentosBuscar#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#index#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#indexo#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#comprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#index_asesor#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#nuevo#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#modificar#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#eliminar#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#pdfGeneraComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#pdfGeneraComprobanteOffLine#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#pdfGeneraComprobanteOffLineAnulado#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#jsonComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#ValidarComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#mailEnviarComprobante_1#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#mailEnviarComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#popoverSunat#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#rptaSunat#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#rptaSunatAnulado#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#xmlSunat#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#webServiceInvocarTXT#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#cdrSunat#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#buscador_cliente#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#updateEstadoComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#comunicacionBaja#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#estadoBaja#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#tipoCambio#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#selectUltimoReg#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#selectUltimoRegModificar#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#sanear_string#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#quitarSaltoDeLinea#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#exportarExcel#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#cargarComprobantesCliente#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#comprobantesNotasCredito#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#selectRutaCDR#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#selectCDR#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#crearDocumentoCDR#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#tipoCambioFechaJson#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#tipoCambioFecha#0;n#Comprobantes#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/ticket_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/ticket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/tipo_cambio_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/ticket_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/comprobantes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1483" column="30" selection-start-line="1483" selection-start-column="20" selection-end-line="1483" selection-end-column="30" />
+          <folding>
+            <element signature="n#documentos#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#documentosBuscar#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#index#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#indexo#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#comprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#index_asesor#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#nuevo#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#modificar#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#eliminar#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#pdfGeneraComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#pdfGeneraComprobanteOffLine#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#pdfGeneraComprobanteOffLineAnulado#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#jsonComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#ValidarComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#mailEnviarComprobante_1#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#mailEnviarComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#popoverSunat#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#rptaSunat#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#rptaSunatAnulado#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#xmlSunat#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#webServiceInvocarTXT#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#cdrSunat#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#buscador_cliente#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#updateEstadoComprobante#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#comunicacionBaja#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#estadoBaja#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#tipoCambio#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#selectUltimoReg#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#selectUltimoRegModificar#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#sanear_string#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#quitarSaltoDeLinea#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#exportarExcel#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#cargarComprobantesCliente#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#comprobantesNotasCredito#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#selectRutaCDR#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#selectCDR#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#crearDocumentoCDR#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#tipoCambioFechaJson#0;n#Comprobantes#0;n#!!top" />
+            <element signature="n#tipoCambioFecha#0;n#Comprobantes#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/comprobantes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="331" column="72" selection-start-line="331" selection-start-column="72" selection-end-line="331" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

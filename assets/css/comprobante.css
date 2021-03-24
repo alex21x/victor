@@ -1,0 +1,208 @@
+.material-switch > input[type="checkbox"] {        
+    display: none;  
+    height: 0;
+}
+    .material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 50px;  
+}
+    .material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: 25px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+}
+    .material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: 25px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+    .material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+    .material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 30px;
+}
+
+    /* Agregando Inputs */
+    .input-group {width: 100%;}
+    .input-group-addon { min-width: 180px;text-align: right;}    
+    
+    /* Estilos Comprobante*/
+    .clase_tahoma{
+        /*font-family: Helvetica, Verdana, Segoe, sans-serif;
+        //font-family: italic normal 400 16px/22px Arial, Verdana, Sans-serif;*/
+        font-size: 13px;
+    }    
+    .panel-title{
+        font-size: 13px;
+        font-weight: bold;
+    }    
+    
+    
+    /* AGREGADO VALIDA */    
+    .fila-base{
+        display: none;        
+    }                	
+     /* SPAN */     
+    #btnEdit{
+      margin:-10px 0 0 20px;
+    }        
+
+    .btn_buscar{
+        margin-top: 10px;
+    }
+
+
+    @media (min-width:0px) {
+       .btn_buscar {
+           margin-top: 8px;
+           width: 100px;
+           font-size: 13px;
+        }
+       .input_cliente{
+           width: 330px;
+       }
+       .input_busqueda{
+           width: 240px;            
+       }
+
+       .modal-dialog-pagoMonto{
+        position: relative;
+        display: table; /* <-- This makes the trick */
+        overflow-y: auto;    
+        overflow-x: auto;        
+        width: auto;   
+        margin-left: 55px;     
+    }
+       }    
+    @media (min-width: 768px) {
+        .btn_buscar {
+           margin-top: 8px;
+           width: 100px;
+           font-size: 13px;
+        }
+        .input_cliente{
+           width: 250px;
+       }
+       .input_busqueda{
+           width: 240px;            
+       }
+
+       .modal-dialog-pagoMonto{
+        position: relative;
+        display: table; /* <-- This makes the trick */
+        overflow-y: auto;    
+        overflow-x: auto;        
+        width: 500px;    
+        margin-left: 700px;     
+    }
+    }
+    @media (min-width: 992px) {
+        .btn_buscar {
+           margin-top: 8px;
+           width: 100px;
+           font-size: 13px;
+        }
+       .input_cliente{
+           width: 230px;
+       }
+       .input_busqueda{
+           width: 240px;            
+       }
+       .modal-dialog-pagoMonto{
+        position: relative;
+        display: table; /* <-- This makes the trick */
+        overflow-y: auto;    
+        overflow-x: auto;        
+        width: 500px;   
+        margin-left: 700px;     
+    }
+    }
+    @media (min-width: 1200px) {
+       .btn_buscar {
+           margin-top: 8px;
+           width: 100px;
+           font-size: 13px;
+        }
+       .input_cliente{
+           width: 300px;
+       }
+       .input_busqueda{
+           width: 240px;            
+       }
+    }
+
+    @media (min-width: 1300px) {
+       .btn_buscar {
+           margin-top: 8px;
+           width: 100px;
+           font-size: 13px;
+    }
+       .input_cliente{
+           width: 330px;
+       }
+       .input_busqueda{
+           width: 240px;            
+       }
+    }
+
+    @media (min-width: 1500px) {
+       .btn_buscar {
+           margin-top: 8px;
+           width: 100px;
+           font-size: 13px;
+    }
+       .input_cliente{
+           width: 300px;
+       }
+       .input_busqueda{
+           width: 240px;            
+       }
+    }
+    
+    @media (min-width: 1600px) {
+       .btn_buscar {
+           margin-top: 8px;
+           width: 100px;
+           font-size: 13px;
+    }
+       .input_cliente{
+           width: 480px;
+       }
+       .input_busqueda{
+           width: 280px;            
+       }
+    }
+
+   @media (min-width: 1900px) {
+       .btn_buscar {
+           margin-top: 8px;
+           width: 100px;
+           font-size: 13px;
+    }
+       .input_cliente{
+           width: 680px;
+       }
+       .input_busqueda{
+           width: 250px;            
+       }
+    }    

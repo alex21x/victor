@@ -1,0 +1,45 @@
+[27-Oct-2017 11:58:10 America/Lima] PHP Fatal error:  Call to a member function formatVoucher() on null in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 235
+[30-Nov-2017 16:23:07 America/Lima] PHP Fatal error:  Call to undefined function myUrlDecode() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 52
+[30-Nov-2017 16:23:20 America/Lima] PHP Fatal error:  Call to undefined function myUrlDecode() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 52
+[30-Nov-2017 16:23:27 America/Lima] PHP Fatal error:  Call to undefined function myUrlDecode() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 52
+[30-Nov-2017 16:23:33 America/Lima] PHP Fatal error:  Call to undefined function myUrlDecode() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 52
+[30-Nov-2017 16:24:12 America/Lima] PHP Fatal error:  Call to undefined function myUrlDecode() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 52
+[30-Nov-2017 16:26:39 America/Lima] PHP Fatal error:  Call to undefined function myUrlDecode() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 56
+[30-Nov-2017 16:26:44 America/Lima] PHP Fatal error:  Call to undefined function myUrlDecode() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 56
+[14-Dec-2017 19:10:25 America/Lima] PHP Fatal error:  Call to undefined method Comprobantes_model::selectCustomizadoDetalle() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1413
+[14-Dec-2017 19:11:27 America/Lima] PHP Fatal error:  Call to undefined method Comprobantes_model::formatVoucher() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 170
+[14-Dec-2017 19:11:33 America/Lima] PHP Fatal error:  Call to undefined method Comprobantes_model::formatVoucher() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 170
+[14-Dec-2017 19:13:22 America/Lima] PHP Fatal error:  Call to undefined method Comprobantes_model::selectCustomizadoDetalle() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1415
+[15-Dec-2017 16:51:58 Europe/London] PHP Fatal error:  Uncaught exception 'PHPExcel_Exception' with message 'Invalid cell coordinate A-1' in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/third_party/PHPExcel/Cell.php:558
+Stack trace:
+#0 /home/grupotytl/public_html/tytl.com.pe/facturacion/application/third_party/PHPExcel/Worksheet.php(1227): PHPExcel_Cell::coordinateFromString('A-1')
+#1 /home/grupotytl/public_html/tytl.com.pe/facturacion/application/third_party/PHPExcel/Worksheet.php(1186): PHPExcel_Worksheet->_createNewCell('A-1')
+#2 /home/grupotytl/public_html/tytl.com.pe/facturacion/application/third_party/PHPExcel/Worksheet.php(1095): PHPExcel_Worksheet->getCell('A-1')
+#3 /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php(1476): PHPExcel_Worksheet->setCellValue('A-1', ' - ')
+#4 [internal function]: Comprobantes->exportarExcel('null', '1', '01-12-2017', '15-12-2017', 'null', 'null', '2')
+#5 /home/grupotytl/public_html/tytl.com.pe/facturacion/system/core/CodeIgniter.php(359): call_user_func_array(Array, in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/third_party/PHPExcel/Cell.php on line 558
+[18-Jan-2018 13:21:29 America/Lima] PHP Fatal error:  Unsupported operand types in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1163
+[18-Jan-2018 13:38:41 America/Lima] PHP Fatal error:  Unsupported operand types in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1163
+[18-Jan-2018 13:44:09 America/Lima] PHP Fatal error:  Unsupported operand types in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1163
+[18-Jan-2018 13:50:35 America/Lima] PHP Fatal error:  Unsupported operand types in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1163
+[18-Jan-2018 15:42:03 America/Lima] PHP Fatal error:  Unsupported operand types in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1163
+[18-Jan-2018 15:54:29 America/Lima] PHP Fatal error:  Unsupported operand types in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1172
+[18-Jan-2018 15:55:06 America/Lima] PHP Fatal error:  Unsupported operand types in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1174
+[18-Jan-2018 15:57:16 America/Lima] PHP Fatal error:  Unsupported operand types in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1164
+[18-Jan-2018 15:57:51 America/Lima] PHP Fatal error:  Unsupported operand types in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1164
+[18-Jan-2018 15:59:15 America/Lima] PHP Fatal error:  Unsupported operand types in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1166
+[18-Jan-2018 15:59:56 America/Lima] PHP Fatal error:  Unsupported operand types in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1167
+[18-Jan-2018 16:00:31 America/Lima] PHP Fatal error:  Unsupported operand types in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1168
+[18-Jan-2018 16:03:26 America/Lima] PHP Fatal error:  Cannot access empty property in /home/grupotytl/public_html/tytl.com.pe/facturacion/system/core/Model.php on line 51
+[18-Jan-2018 16:04:29 America/Lima] PHP Fatal error:  Cannot access empty property in /home/grupotytl/public_html/tytl.com.pe/facturacion/system/core/Model.php on line 51
+[19-Jan-2018 16:27:14 America/Lima] PHP Fatal error:  Call to undefined method Tipo_cambio_model::selectFechaJson() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1639
+[19-Jan-2018 16:30:54 America/Lima] PHP Fatal error:  Call to undefined method Tipo_cambio_model::selectFechaJson() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1639
+[19-Jan-2018 16:49:20 America/Lima] PHP Fatal error:  Call to undefined method Tipo_cambio_model::selectFechaJson() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1639
+[19-Jan-2018 16:51:46 America/Lima] PHP Fatal error:  Call to undefined method Tipo_cambio_model::selectFechaJson() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1639
+[19-Jan-2018 16:52:14 America/Lima] PHP Fatal error:  Call to undefined method Tipo_cambio_model::selectFechaJson() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1639
+[19-Jan-2018 16:52:45 America/Lima] PHP Fatal error:  Call to undefined method Tipo_cambio_model::selectFechaJson() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1640
+[19-Jan-2018 16:53:36 America/Lima] PHP Fatal error:  Call to undefined method Tipo_cambio_model::selectFechaJson() in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1640
+[19-Jan-2018 22:07:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/controllers/comprobantes.php on line 1284
+[26-Jan-2018 19:47:39 America/Lima] PHP Fatal error:  require_once(): Failed opening required 'application/libraries/fpdf17/rotation/rotation.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/libraries/Sello.php on line 3
+[23-Feb-2018 14:42:32 America/Lima] PHP Fatal error:  require(): Failed opening required 'application/libraries/phpqrcode/qrlib.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/libraries/Pdf.php on line 15
+[23-Feb-2018 14:42:51 America/Lima] PHP Fatal error:  require(): Failed opening required 'application/libraries/phpqrcode/qrlib.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/grupotytl/public_html/tytl.com.pe/facturacion/application/libraries/Pdf.php on line 15

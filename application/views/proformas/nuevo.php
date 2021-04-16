@@ -676,7 +676,7 @@
     //guardar nota
     $("#guardar").click(function(e){
         e.preventDefault();
-        $('#guardar').prop('disabled',true);        
+        //$('#guardar').prop('disabled',true);        
 
        $(".has-error").removeClass(".has-error");
         $.ajax({
@@ -705,7 +705,8 @@
                     }
                     if(response.tipo == '2')
                     {
-                        toast("error", 1500, "No ha ingresado productos");
+                        //toast("error", 1500, "No ha ingresado productos");
+                        toast("error",3000, response.msg);
                     }
                 }
             }

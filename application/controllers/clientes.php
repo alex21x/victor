@@ -9,7 +9,7 @@ if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
 class Clientes extends CI_Controller {
-  ///ffsfsafsd
+
     public function __construct() {
         parent::__construct();        
         $this->load->model('clientes_model');
@@ -563,13 +563,23 @@ class Clientes extends CI_Controller {
         redirect(base_url()."index.php/clientes/index");
     }
 
-    public function eliminar(){      
-        $id = $this->uri->segment(3);
-        $data = array('eliminado_cliente' => 1);
-        $this->clientes_model->modificar($id, $data);    
-        redirect(base_url()."index.php/clientes/index");
-    }
+  //  public function eliminar(){      
+  //      $id = $this->uri->segment(3);
+ //       $data = array('eliminado_cliente' => 1);
+  //      $this->clientes_model->modificar($id, $data);    
+   //     redirect(base_url()."index.php/clientes/index");
+  //  }
     
+      public function eliminar2($idCliente){
+        $result = $this->clientes_model->eliminar2($idCliente);    
+        if($result){
+            echo json_encode(['status' => STATUS_OK]);
+            exit();
+        } else{
+            echo json_encode(['status' => STATUS_FAIL]);
+            exit();
+        }
+    }
     //SeachCliente    
     public function searchCustomer(){        
         $ruc =  $_POST['ruc'];

@@ -215,7 +215,17 @@ class Clientes_model extends CI_Model {
         $sql_eli = "DELETE FROM clientes WHERE id = " . $this->uri->segment(3);
         mysql_query($sql_eli);
         $this->session->set_flashdata('mensaje_cliente_index', 'Cliente: eliminado exitosamente');
-    }    
+    } 
+
+       public function eliminar2($idcliente){
+    $clienteUpdate = [
+                    "eliminado_cliente" => ST_ELIMINADO
+        ];
+    $this->db->where("id",$idcliente);
+    //$this->db->delete("clientes");
+    $this->db->update("clientes", $clienteUpdate);
+    return true;
+}     
     
     public function clientesDeInteres($abogado_interesado, $activo_cliente = '', $activo_contrato = ''){
         $where = '';

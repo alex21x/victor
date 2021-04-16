@@ -1,4 +1,4 @@
-   
+    
 
 <script type="text/javascript">
     $(document).ready(function() {
@@ -21,29 +21,21 @@
             }
         });
     })
-    ;</script>
-
+</script>
 <style type="text/css">
-
 label{
     width: 100%;
     text-align: left;
 }
-
 .clase_tahoma{
         font-family: Tahoma, Verdana, Segoe, sans-serif;
-}  
-
- .container5 a{
-
- display: inline-block;
- margin-right: 20px;
-
+}
+.container5 a{
+    display: inline-block;
+    margin-right: 20px;
 }      
 
-
 </style>
-
 <div align="center">
     <h3>Clientes</h3>
 </div>
@@ -54,8 +46,7 @@ label{
     <div class="container">    
 
         <div class="row buscarCliente">                                                                         
-                <div class="col-xs-12 col-md-6 col-lg-6">
-
+                <div class="col-xs-12 col-md-3 col-lg-3">
                     <label for="cliente">Cliente:
                     <input type="text" value="<?PHP if(isset($cliente_select)){ echo $cliente_select;}?>" class="form-control" id="cliente" name="cliente" placeholder="Cliente">
                     </label>
@@ -94,17 +85,42 @@ label{
                             <?PHP }?>
                         </select>
                         </label>
-                </div>      
-         </div>
-         <div class="row buscarCliente" >                                 
-                <div class="col-xs-9 col-md-6 col-lg-6"> 
-                    <label>Usuario:                   
-                      <input type="text" class="form-control" name="empleado" id="empleado" placeholder="Usuario"></label>
-                </div><br>
-                <div class="col-xs-2 col-md-6 col-lg-6">
+                </div>
+                <div class="col-xs-6 col-md-3 col-lg-3">
+                        <label for="rubro">Rubro:</label>
+                            <select class="form-control" name="rubro" id="rubro" required="">
+                                <option value="todos">Todos</option>
+                                <?PHP foreach ($tipo_cliente_rubros as $value) {                                     
+                                    $SELECTED = ($rubro_select == $value->tcr_id) ? 'SELECTED' : '';?>                                    
+                                    <option value="<?PHP echo $value->tcr_id; ?>" <?= $SELECTED?>><?PHP echo $value->tcr_nombre; ?></option>
+                                <?PHP }?>
+                            </select>                        
+                </div>
+                <div class="col-xs-6 col-md-3 col-lg-3">
+                        <label for="zona">Zona:</label>                        
+                            <select class="form-control" name="zona" id="zona" required="">
+                                <option value="todos">Todos</option>
+                                <?PHP foreach ($zonas as $value) {
+                                 $SELECTED = ($zona_select == $value->zon_id) ? 'SELECTED' : ''; ?>
+                                    <option value="<?PHP echo $value->zon_id; ?>" <?= $SELECTED?>><?PHP echo $value->zon_nombre; ?></option>
+                                <?PHP }?>
+                            </select>  
+                </div>
+                <div class="col-xs-6 col-md-3 col-lg-3">
+                        <label for="empleado">Usuario:</label>
+                      <input type="text" class="form-control" name="empleado" id="empleado" placeholder="Usuario">
+                </div>
+                 <div class="col-xs-6 col-md-3 col-lg-3">
+                        <label for="placa">Placa:</label>
+                      <input type="text" class="form-control" name="placa" id="placa" placeholder="Placa" value="<?= $placa_select?>">
+                </div>
+                <div class="col-xs-3 col-md-3 col-lg-3"><br>
                     <input type="submit" class="btn btn-primary" id="boton1" value="Buscar" />
+                    <!--<button id="btn_limpiar" href="#" class="btn btn-default btn-sm">Limpiar</button>-->
                 </div> 
-        </div>                                
+         </div>  
+         <div class="row buscarCliente">  
+         </div>       
         </div>
 </form>
 <hr>
@@ -126,46 +142,43 @@ label{
                 <tr>
                     <th>N°</th>
                     <th>T.Cliente</th>
+                    <th>Ver Mapa</th>
                     <th>Ruc/Dni</th>
                     <th>Razón Social/Apellidos y Nombres</th>
+                    <th>Placa</th>
                     <th>Usuario</th>
-                    <?PHP if (($this->session->userdata('tipo_empleado_id') == 1)) { ?>
-                        <th><span class="glyphicon glyphicon-pencil"></span></th>
-                        <th><span class="glyphicon glyphicon-trash"></span></th>
-                    <?PHP } ?>
+                    <th>Tipo-Rubro</th>
+                    <th>Zona</th>                                        
+                    <th <?= $this->session->userdata('accesoEmpleadoCaja');?>><span class="glyphicon glyphicon-pencil"></span></th>
+                    <th <?= $this->session->userdata('accesoEmpleadoCaja');?>><span class="glyphicon glyphicon-trash"></span></th>                
                 </tr>
                 <?PHP
                 $i = 0;
                 foreach ($clientes as $value) {
-                    $i++
-                    ?>
+                    $i++;?>
                     <tr>
                         <td><?PHP echo $value['cliente_id'] ?></td>
                         <td><?PHP echo $value['tipo_cliente'] ?></td>
-                        <td><a onclick="javascript:window.open('<?PHP echo base_url() ?>index.php/clientes/perfil/<?PHP echo $value['cliente_id']; ?>', '', 'width=750,height=600,scrollbars=yes,resizable=yes')" href="#"><?PHP echo $value['ruc'] ?></a></td>
+                        <td><a class="btn btn-success colbg" onclick="javascript:window.open('<?= $value['maps']?>','','width=750,height=600,scrollbars=yes,resizable=yes')" href="#">ver</a>
+                            </td>
+                        <td><a onclick="javascript:window.open('<?PHP echo base_url() ?>index.php/clientes/perfil/<?PHP echo $value['cliente_id']; ?>', '', 'width=700,height=700,scrollbars=yes,resizable=yes')" href="#"><?PHP echo $value['ruc'] ?></a></td>
                         <?PHP if($value['tipo_cliente_id']=='1') {?>
                         <td><?PHP echo $value['razon_social']." ".$value['nombres']; ?></td>                        
                         <?PHP } else { ?>
                         <td><?PHP echo $value['razon_social']; ?></td>
                         <?PHP } ?>
+                        <td><?PHP echo $value['placa'] ?></td>
                         <td><?PHP echo $value['empleado'] ?></td>
-                       
-                      <?php if($value['cliente_id']!=1){ ?>  
-                        <td>
-                            <a class="btn btn btn-primary btn-xs" title="Modificar" href="<?PHP echo base_url() ?>index.php/clientes/modificar/<?PHP echo $value['cliente_id']; ?>"><span class="glyphicon glyphicon-pencil"></span></a></td>
-
-                            <?PHP if($this->session->userdata('tipo_empleado_id') == 1) {?>
-                        <td>
-                            <a class="btn btn btn-danger btn-xs" title="Eliminar" href="<?PHP echo base_url() ?>index.php/clientes/eliminar/<?PHP echo $value['cliente_id']; ?>">
+                        <td><?PHP echo $value['rubro'] ?></td>
+                        <td><?PHP echo $value['zona'] ?></td>
+                        <td <?= $this->session->userdata('accesoEmpleadoCaja');?>>
+                            <a class="btn btn btn-primary btn-xs" title="Modificar" href="<?PHP echo base_url() ?>index.php/clientes/modificar/<?PHP echo $value['cliente_id']; ?>"><span class="glyphicon glyphicon-pencil"></span></a></td>                            
+                        <td <?= $this->session->userdata('accesoEmpleadoCaja');?>>
+                            <a class="btn btn btn-danger btn-xs btn_eliminar_cliente" data-id="<?php echo $value['cliente_id']?>"  data-msg="Desea eliminar Cliente <?php echo $value['razon_social']?>" title="Eliminar" href="#">
                             <span class="glyphicon glyphicon-trash"></span></a>
-                        </td>                        
-                      <?php }}else{ ?> 
-                        <td></td>
-                        <td></td>
-                      <?php } ?> 
+                        </td>                                              
                     </tr>
-                    <?PHP }
-                ?>
+                    <?PHP }?>                
             </table>
         </div>
     </div>
@@ -178,13 +191,16 @@ label{
 </div>
 
 <script type="text/javascript">
+
+ 
+
     jQuery(document).ready(function() {
 
         
     $('#exportar_cli').click(function() {
-        var clienteid =$('#cliente_id').val();
+        var clienteid = $('#cliente_id').val();
         var estadocliente = $('#estado_cliente').val();
-        var tipocliente = $('#tipo_cliente').val();
+        var tipocliente   = $('#tipo_cliente').val();
         if(clienteid ==''){
             clienteid =0;
         }
@@ -201,12 +217,58 @@ label{
 
     });
 
-    $("#btn_importar_clientes").click(function(e){
-
-        
+    $("#btn_importar_clientes").click(function(e){        
          e.preventDefault();
         $("#myModal").load('<?php echo base_url()?>index.php/clientes/subirclientesUi',{});       
     });
+    /* BOTON LIMPIAR */
+    $(document).on("click","#btn_limpiar",function(){
+        $("#form1")[0].reset();
+        $("#cliente").val('');
+        $("#cliente_id").val('');
+        $("#empleado_id").val('');
+    });
 });
+
+    //16/04/2021 FERNANDEZ CAHUANA SMITH 
+    jQuery(document).ready(function(){
+
+            $('.btn_eliminar_cliente').click(function(e){
+                e.preventDefault();
+                var idCliente = $(this).data('id');
+                var msg = $(this).data('msg');
+                var url = '<?= base_url()?>index.php/clientes/eliminar2/'+idCliente
+                $.confirm({
+                    title: "confirmar",
+                    content: msg,
+                    buttons: {
+                        confirm:{
+                            text:'aceptar',
+                            btnClass: 'btn-blue',
+                            action: function(){
+                                $.ajax({
+                                    url: url,
+                                    dataType: 'json',
+                                    method: 'get',
+                                    success: function(response){
+                                        if(response.status ==  STATUS_OK){
+                                            toast('success',1500,'cliente eliminado');
+                                           window.location.href ='<?= base_url()?>index.php/clientes/index';
+                                        }
+                                        if(response.status == STATUS_FAIL){
+                                            toast('error',2000,'No se pudo eliminar el cliente porque tiene paciente agregados');
+                                        }
+                                    }
+                                });
+                            }
+                        },
+                        cancel: function(){
+
+                        }
+                    }
+                });
+            });
+
+    });
 
 </script>

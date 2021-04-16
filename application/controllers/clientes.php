@@ -9,7 +9,7 @@ if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
 class Clientes extends CI_Controller {
-
+  ///ffsfsafsd
     public function __construct() {
         parent::__construct();        
         $this->load->model('clientes_model');

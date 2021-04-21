@@ -16,7 +16,7 @@ class Acceso extends CI_Controller {
 
     }
 
-   
+   //cambio prueba
 
     function index() {
         //echo 'hoa '.$this->session->userdata('session_url');exit;
